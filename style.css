@@ -1,0 +1,207 @@
+* {
+  margin: 0px;
+}
+.navbar {
+  background-color: #2874f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+.searchbar {
+  height: 40px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 6px;
+}
+.loginbutton {
+  width: 100px;
+  height: 30px;
+}
+.navlink {
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+}
+.links {
+  margin-left: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  display: flex;
+}
+a.nav {
+  text-decoration: none;
+  color: white;
+}
+a.nav:hover {
+  color: black;
+}
+.cart {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.catagory {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.catagoryitem {
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.catagoryitem:hover {
+  color: #0a64f6;
+}
+.catagoryimg {
+  width: 70px;
+  height: 80px;
+  object-fit: cover;
+}
+.main {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 350px;
+  margin: 10px;
+  display: flex;
+}
+.aside1 {
+  width: 20%;
+  padding: 30px;
+  background: linear-gradient(110deg, #ac9a62 60%, #6068bb 60%);
+}
+h2 {
+  /* color: black; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  font-size: 40px;
+  margin-top: 20px;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.view {
+  width: 130px;
+  height: 39px;
+  background-color: #2874f0;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 20px;
+  border-color: #2874f0;
+}
+.view:hover {
+  background-color: #6068bb;
+}
+.Product {
+  width: 80%;
+  display: flex;
+}
+.productimg {
+  height: 250px;
+  width: 200px;
+  margin: 20px 20px 0px 20px;
+}
+.productimg:hover {
+  scale: 1.05;
+}
+.productitem {
+  align-items: center;
+  text-align: center;
+}
+h4 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+.aside2 {
+  width: 20%;
+  padding: 30px;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+.price {
+  color: green;
+  margin: 10px;
+  font-size: 20px;
+}
+.aside3 {
+  width: 20%;
+  padding: 30px;
+  background: linear-gradient(110deg, #ec0909 60%, #00ff99 60%);
+}
+.footer {
+  background-color: #172337;
+  height: 300px;
+  display: flex;
+  color: white;
+}
+.footeritem {
+  margin: 50px;
+}
+hr {
+  height: 200px;
+  margin-top: 50px;
+}
+.address {
+  width: 200px;
+}
+h5 {
+  color: gray;
+  font-size: 15px;
+}
+p {
+  margin: 10px;
+}
+p:hover {
+  text-decoration: underline;
+}
+.form {
+  display: grid;
+  width: 30vw;
+  height: 70vh;
+  background-color: #fad9d9;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+}
+.form-details {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+}
+.login {
+  color: #000000;
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.loginbtn {
+  width: 150px;
+  height: 40px;
+  margin-left: 50px;
+  border-radius: 10px;
+  background-color: #0e69d1;
+  color: #ffffff;
+  font-size: 20px;
+}
+.loginbtn:hover {
+  opacity: 80%;
+  transform: scale(0.9);
+}

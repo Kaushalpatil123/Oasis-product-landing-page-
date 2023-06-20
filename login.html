@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: #e3f0ef">
+    <form class="form">
+      <h3 class="login">Login</h3>
+      <input
+        class="form-details"
+        id="name1"
+        type="text"
+        placeholder="Full Name"
+        name="Name"
+      />
+      <input
+        class="form-details"
+        id="email"
+        type="email"
+        placeholder="Email"
+        name="Email"
+      />
+      <input
+        class="form-details"
+        id="course"
+        type="password"
+        placeholder="password"
+        name="password"
+      />
+      <button
+        onclick="redirectToHome()"
+        class="loginbtn"
+        id="loginbtn"
+        type="button"
+      >
+        Login
+      </button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
