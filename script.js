@@ -1,7 +1,5 @@
 function redirectToHome() {
   alert("Login Successful!");
-  window.location.href = "http://127.0.0.1:5500/index.html";
+  window.location.href = "https://kaushalpatil123.github.io/Oasis-product-landing-page-/";
 }
-function redirecttologin() {
-  window.location.href = "http://127.0.0.1:5500/login.html";
-}
+
